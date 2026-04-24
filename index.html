@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ronelio - Portfolio</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background:#0f172a;
+  color:#e2e8f0;
+}
+
+/* NAV */
+header {
+  position: sticky;
+  top:0;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+}
+
+.nav-menu {
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  padding:15px;
+  list-style:none;
+}
+
+.nav-menu a {
+  color:#fff;
+  text-decoration:none;
+  transition:0.3s;
+}
+
+.nav-menu a:hover {
+  color:#00c6ff;
+}
+
+/* SECTIONS */
+.section {
+  max-width:1000px;
+  margin:100px auto;
+  padding:40px;
+  border-radius:15px;
+  background:rgba(255,255,255,0.05);
+  text-align:center;
+}
+
+/* HERO */
+#home {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.profile-pic {
+  width:180px;
+  border-radius:50%;
+  margin:20px 0;
+  border:3px solid #00c6ff;
+}
+
+/* BUTTON */
+.download-btn {
+  margin-top:20px;
+  padding:12px 25px;
+  border-radius:30px;
+  background:#00c6ff;
+  color:white;
+  text-decoration:none;
+}
+
+/* PROJECT */
+.project {
+  margin-top:20px;
+}
+
+.project img {
+  width:100%;
+  border-radius:10px;
+}
+
+/* SKILLS */
+.skills {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin-top:20px;
+}
+
+.skill {
+  background:#00c6ff;
+  padding:8px 15px;
+  border-radius:20px;
+  color:#000;
+}
+
+/* SOCIAL */
+.socials a {
+  margin:10px;
+  font-size:20px;
+  color:white;
+}
+
+/* FOOTER */
+footer {
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<ul class="nav-menu">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</header>
+
+<!-- HERO -->
+<section id="home" class="section">
+<h1>Hi, I'm Ronelio </h1>
+<p>BSIT Student | Future Developer</p>
+<img src="ron.jpg" class="profile-pic">
+
+<a href="resume.pdf" download class="download-btn">
+Download Resume
+</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+<h2>About Me</h2>
+<p>
+I am a BSIT student passionate about programming, gaming, and building applications.
+I enjoy learning new technologies and improving my coding skills every day.
+</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+<h2>Skills</h2>
+<div class="skills">
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">JavaScript</span>
+<span class="skill">Python</span>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+<h2>Projects</h2>
+
+<div class="project">
+<img src="quiz game.jpg">
+<h3>Quiz Game</h3>
+<p>Python quiz system</p>
+</div>
+
+<div class="project">
+<img src="grade calculator.jpg">
+<h3>Grade Calculator</h3>
+<p>Calculate grades easily</p>
+</div>
+
+<div class="project">
+<img src="portfolio website.jpg">
+<h3>Portfolio Website</h3>
+<p>This website you are seeing now</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: roneliodelacruz2@gmail.com</p>
+<p>Facebook: Ronelio Dela cruz</p>
+<p>Instagram: ronx.19
+
+
+<div class="socials">
+<a href="#"><i class="fa-brands fa-facebook"></i></a>
+<a href="#"><i class="fa-brands fa-github"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Ronelio</p>
+</footer>
+
+</body>
+</html>
